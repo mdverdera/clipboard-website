@@ -28,6 +28,11 @@
   @apply max-w-3xl mx-auto leading-9 text-center text-gray-700;
 }
 
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
+
 body {
   background-image: url("/img/bg-header-desktop.png");
   background-repeat: no-repeat;
